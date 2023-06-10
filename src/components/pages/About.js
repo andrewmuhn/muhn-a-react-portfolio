@@ -2,15 +2,15 @@ import React from 'react';
 
 export default function About() {
   return (
-    <section class="section-container" id="about">
-      <div class="about-me">
-        <h3>About Me</h3>
+    <section className="section-container">
+      <div className="section-header row">
+        <h2>About Me</h2>
         <img
           src="./images/Profile.png"
           alt="author on a backpacking trip in the Tetons"
         />
       </div>
-      <div class="about-text">
+      <div className="section-content">
         <div>
           <p>
             My name is Andrew Muhn. I have spent most of my adult life living,

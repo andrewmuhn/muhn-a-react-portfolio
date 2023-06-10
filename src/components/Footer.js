@@ -11,6 +11,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
+              className="icon"
               src="./images/github.svg"
               alt="link to Andrew's github profile"
             />
@@ -23,6 +24,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
+              className="icon"
               src="./images/LinkedIn.png"
               alt="link to Andrew's LinkedIn profile"
             />
@@ -35,6 +37,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
+              className="icon"
               src="./images/stackoverflow.svg"
               alt="link to Andrew's stackoverflow profile"
             />
