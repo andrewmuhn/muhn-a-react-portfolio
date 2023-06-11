@@ -1,7 +1,7 @@
+import React from 'react';
 import './App.css';
+import PortfolioContainer from './components/PortfolioContainer';
 
-function App() {
-  return <div className="bucket-app"></div>;
-}
+const App = () => <PortfolioContainer />;
 
 export default App;

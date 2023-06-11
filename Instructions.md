@@ -86,7 +86,7 @@ As with the previous portfolio Challenge, remember that "good" design is subject
 
 - Use mobile-first design.
 
-- Choose a color palette that distinguishes your site from the default Bootstrap theme and unstyled HTML sites. Refer to resources like [Coolors](https://coolors.co/) or another color scheme generator to help you create something that will stand out.
+- Choose a color palette that distinguishes your site from the default Bootstrap theme and unstyled HTML sites. Refer to resources like [Coolors](https://coo lors.co/) or another color scheme generator to help you create something that will stand out.
 
 - Ensure that the font size is large enough to read and that the colors don't cause eye strain.
 
