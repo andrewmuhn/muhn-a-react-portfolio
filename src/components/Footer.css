@@ -1,0 +1,22 @@
+footer {
+  background-color: var(--primary);
+  min-height: 80px;
+}
+
+.icon {
+  max-width: 50px;
+  min-width: 50px;
+}
+
+.footer-item {
+  margin: 10px 20px 0;
+}
+
+.footer-link {
+  opacity: 60%;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  opacity: 100%;
+}

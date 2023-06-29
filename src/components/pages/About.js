@@ -3,14 +3,15 @@ import React from 'react';
 export default function About() {
   return (
     <section className="section-container">
-      <div className="section-header row">
+      <div className="section-header text-center">
         <h2>About Me</h2>
         <img
-          src="./images/Profile.png"
-          alt="author on a backpacking trip in the Tetons"
+          src="./images/headshot.jpeg"
+          alt="Headshot of the author while packswimming."
+          className="rounded-circle border border-dark w-25"
         />
       </div>
-      <div className="section-content">
+      <div className="section-content mx-5">
         <div>
           <p>
             My name is Andrew Muhn. I have spent most of my adult life living,
@@ -23,10 +24,6 @@ export default function About() {
             I hope it will allow me more time to pursue the outdoors even if
             some question my willingness to oggle at a computer's screen.
           </p>
-          <img
-            src="./images/Headshot.png"
-            alt="Headshot of the author while packswimming."
-          />
         </div>
         <p>
           Currently I'm most excited about being able to continue to use my

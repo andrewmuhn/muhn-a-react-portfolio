@@ -1,0 +1,28 @@
+.section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  margin: 10px 25%;
+}
+
+label {
+  font-weight: 600;
+  font-style: italic;
+  margin: 10px 0 0;
+}
+
+form-control {
+  margin-top: 10px;
+}
+
+.submit-container {
+  margin: 10px;
+}
+
+#submit {
+  font-weight: 600;
+  font-style: italic;
+  /* border-radius: 30%; */
+}

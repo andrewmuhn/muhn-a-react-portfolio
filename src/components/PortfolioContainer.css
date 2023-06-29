@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+/* color pallete */
+:root {
+  --primary: #26304a;
+  --secondary: #f5d750;
+  /* --secondary: #fad42a; */
+  --tertiary: #6b211f;
+  /* --dark: #cc9a4f; */
+  --dark: #f5d750;
+  --light: #b1807f;
+}
+
+.section-container {
+  background-color: var(--light);
+}
+
+h2 {
+  text-align: center;
+  padding: 10px 0 0 0;
+}
