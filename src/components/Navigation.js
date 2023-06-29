@@ -1,9 +1,10 @@
+import './Naviagtion.css';
 import React from 'react';
 
 const Navigation = ({ currentPage, handlePageChange }) => {
   return (
-    <ul className="nav navigation">
-      <li className="nav-item">
+    <ul className="nav navigation d-flex flex-column flex-md-row text-center">
+      {/* <li className="nav-item">
         <a
           href="#Home"
           onClick={() => handlePageChange('Home')}
@@ -11,7 +12,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
         >
           Home
         </a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a
           href="#About"

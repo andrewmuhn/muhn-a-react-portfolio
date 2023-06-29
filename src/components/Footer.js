@@ -1,14 +1,16 @@
+import './Footer.css';
 import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <ul className="footer-list">
-        <li className="footer-item">
+    <footer className="footer text-center">
+      <ul className="footer-list list-inline">
+        <li className="footer-item list-inline-item">
           <a
             href="https://github.com/andrewmuhn"
             target="_blank"
             rel="noreferrer"
+            className="footer-link"
           >
             <img
               className="icon"
@@ -17,11 +19,12 @@ const Footer = () => {
             />
           </a>
         </li>
-        <li className="footer-item">
+        <li className="footer-item list-inline-item">
           <a
             href="https://www.linkedin.com/in/andrew-muhn/"
             target="_blank"
             rel="noreferrer"
+            className="footer-link"
           >
             <img
               className="icon"
@@ -30,11 +33,12 @@ const Footer = () => {
             />
           </a>
         </li>
-        <li className="footer-item">
+        <li className="footer-item list-inline-item">
           <a
             href="https://stackoverflow.com/users/21856307/andrew-muhn"
             target="_blank"
             rel="noreferrer"
+            className="footer-link"
           >
             <img
               className="icon"

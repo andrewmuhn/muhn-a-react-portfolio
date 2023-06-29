@@ -1,8 +1,9 @@
+import './Resume.css';
 import React from 'react';
 
 export default function Resume() {
   return (
-    <section className="section-container">
+    <section className="section-container text-center">
       <div className="section-header">
         <h2>Resume</h2>
         <p>
@@ -12,14 +13,14 @@ export default function Resume() {
           </a>
         </p>
       </div>
-      <div className="section-content">
-        <h3>Front-end Proficiencies</h3>
+      <div className="section-content resume-section mx-auto">
+        <h3 className="text-center">Front-end Proficiencies</h3>
         <ul>
           <li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript ES6</li>
           <li>jQuery</li>
-          <li>responsive design</li>
+          <li>Responsive Design</li>
           <li>React</li>
           <li>Bootstrap</li>
         </ul>
