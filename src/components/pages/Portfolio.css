@@ -1,5 +1,28 @@
-.card {
-  width: 45%;
-  background-color: var(--tertiary);
+.project-container {
+  /* display: grid; */
+}
+.project-card {
+  max-width: 35rem;
+  /* max-height: 20rem; */
+  background-color: var(--primary);
   color: var(--secondary);
+  overflow: hidden;
+  border-radius: ;
+}
+
+.project-card img {
+  max-width: 100%;
+  /* height: 25rem; */
+}
+.projects-child {
+  /* background-color: var(--tertiary); */
+}
+
+.projects-child a {
+  background-color: var(--secondary);
+}
+
+.projects-child a:active,
+.projects-child a:hover {
+  border-color: var(--secondary);
 }

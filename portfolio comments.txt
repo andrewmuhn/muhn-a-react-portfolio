@@ -1,2 +1,0 @@
-contact submit button make the font the same as label font
-

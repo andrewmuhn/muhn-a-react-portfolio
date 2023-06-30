@@ -1,3 +1,4 @@
+import './About.css';
 import React from 'react';
 
 export default function About() {
@@ -11,20 +12,18 @@ export default function About() {
           className="rounded-circle border border-dark w-25"
         />
       </div>
-      <div className="section-content mx-5">
-        <div>
-          <p>
-            My name is Andrew Muhn. I have spent most of my adult life living,
-            playing and teaching in the outdoors. Spending months guiding
-            students through backpacking trips, climbing adventures, rafting
-            rivers, and exploring their own backyards. The ability to use my
-            time has been such a reward and I have a plethora of fond memories
-            in addition to many trials and tribulations. However, it is time for
-            me to try something new. Coding is the next adventure. It some ways
-            I hope it will allow me more time to pursue the outdoors even if
-            some question my willingness to oggle at a computer's screen.
-          </p>
-        </div>
+      <div className="about-section section-content mx-5">
+        <p>
+          My name is Andrew Muhn. I have spent most of my adult life living,
+          playing and teaching in the outdoors. Spending months guiding students
+          through backpacking trips, climbing adventures, rafting rivers, and
+          exploring their own backyards. The ability to use my time has been
+          such a reward and I have a plethora of fond memories in addition to
+          many trials and tribulations. However, it is time for me to try
+          something new. Coding is the next adventure. It some ways I hope it
+          will allow me more time to pursue the outdoors even if some question
+          my willingness to oggle at a computer's screen.
+        </p>
         <p>
           Currently I'm most excited about being able to continue to use my
           native intrigue for problem solving in a concrete way. The challenges
