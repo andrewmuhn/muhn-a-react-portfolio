@@ -2,7 +2,7 @@
   "name": "muhn-a-portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andrewmuhn.github.io/muhn-a-portfolio-react.com",
+  "homepage": "https://andrewmuhn.github.io/muhn-a-react-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
