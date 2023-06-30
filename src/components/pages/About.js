@@ -7,7 +7,7 @@ export default function About() {
       <div className="section-header text-center">
         <h2>About Me</h2>
         <img
-          src="./images/headshot.jpeg"
+          src="./images/Headshot.jpeg"
           alt="Headshot of the author while packswimming."
           className="rounded-circle border border-dark w-25"
         />
