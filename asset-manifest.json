@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/muhn-a-portfolio-react.com/static/css/main.a60b42b3.css",
-    "main.js": "/muhn-a-portfolio-react.com/static/js/main.d553c81f.js",
-    "index.html": "/muhn-a-portfolio-react.com/index.html",
-    "main.a60b42b3.css.map": "/muhn-a-portfolio-react.com/static/css/main.a60b42b3.css.map",
-    "main.d553c81f.js.map": "/muhn-a-portfolio-react.com/static/js/main.d553c81f.js.map"
+    "main.css": "/muhn-a-react-portfolio/static/css/main.a60b42b3.css",
+    "main.js": "/muhn-a-react-portfolio/static/js/main.d553c81f.js",
+    "index.html": "/muhn-a-react-portfolio/index.html",
+    "main.a60b42b3.css.map": "/muhn-a-react-portfolio/static/css/main.a60b42b3.css.map",
+    "main.d553c81f.js.map": "/muhn-a-react-portfolio/static/js/main.d553c81f.js.map"
   },
   "entrypoints": [
     "static/css/main.a60b42b3.css",
