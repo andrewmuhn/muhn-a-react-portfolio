@@ -13,7 +13,10 @@ export default function Portfolio() {
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Cook's Companion</h4>
               <p>Handlebars, mySQL, Express</p>
-              <img src="./images/cooks-companion.jpg" alt="" />
+              <img
+                src="./images/cooks-companion.jpg"
+                alt="Full Stack Web-App"
+              />
               <div className="projects-child py-2 d-flex justify-content-around">
                 <a className="btn" href="https://cookscompanion.herokuapp.com/">
                   Deployed Application
@@ -29,7 +32,10 @@ export default function Portfolio() {
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Book Search Engine</h4>
               <p>GraphQL, MERN, JWT</p>
-              <img src="./images/book-search-engine.png" alt="" />
+              <img
+                src="./images/book-search-engine.png"
+                alt="MERN GraphQL Book Search Engine"
+              />
               <div className="projects-child py-2 d-flex justify-content-around">
                 <a
                   className="btn"
@@ -48,7 +54,7 @@ export default function Portfolio() {
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Text Editor</h4>
               <p>PWA</p>
-              <img src="./images/text-editor.png" alt="" />
+              <img src="./images/text-editor.png" alt="text editor PWA" />
               <div className="projects-child py-2 d-flex justify-content-around">
                 <a
                   className="btn"
@@ -69,7 +75,10 @@ export default function Portfolio() {
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Employee Tracker</h4>
               <p>Node, mySql, Sequelize</p>
-              <img src="./images/employee-manager.png" alt="" />
+              <img
+                src="./images/employee-manager.png"
+                alt="employee manager CLI"
+              />
               <div className="projects-child py-2 d-flex justify-content-around">
                 <a
                   className="btn"
@@ -82,7 +91,7 @@ export default function Portfolio() {
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>E-Commerce</h4>
               <p>mySQL, Sequelize</p>
-              <img src="./images/weather-app.png" alt="" />
+              <img src="./images/e-commerce.png" alt="e-commerce app" />
               <div className="projects-child py-2 d-flex justify-content-around">
                 <a
                   className="btn"
@@ -95,7 +104,7 @@ export default function Portfolio() {
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Weather App</h4>
               <p>Third-Party APIs</p>
-              <img src="./images/weather-app.png" alt="" />
+              <img src="./images/weather-app.png" alt="weather app" />
               <div className="projects-child py-2 d-flex justify-content-around">
                 <a
                   className="btn"
