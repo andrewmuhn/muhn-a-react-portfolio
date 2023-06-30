@@ -14,21 +14,45 @@ export default function About() {
       </div>
       <div className="about-section section-content mx-5">
         <p>
-          My name is Andrew Muhn. I have spent most of my adult life living,
-          playing and teaching in the outdoors. Spending months guiding students
-          through backpacking trips, climbing adventures, rafting rivers, and
-          exploring their own backyards. The ability to use my time has been
-          such a reward and I have a plethora of fond memories in addition to
-          many trials and tribulations. However, it is time for me to try
-          something new. Coding is the next adventure. It some ways I hope it
-          will allow me more time to pursue the outdoors even if some question
-          my willingness to oggle at a computer's screen.
+          Hello, my name is Andrew Muhn. For the majority of my adult life, I
+          have immersed myself in the outdoors, embracing a lifestyle of living,
+          playing, and teaching in nature's vast playground. Guiding students on
+          backpacking trips, climbing adventures, rafting expeditions, and
+          encouraging them to explore their own backyards has been my passion.
+          The freedom to spend my time in such a way has been incredibly
+          rewarding, filled with cherished memories and valuable lessons learned
+          through both triumphs and challenges.
         </p>
         <p>
-          Currently I'm most excited about being able to continue to use my
-          native intrigue for problem solving in a concrete way. The challenges
-          that come with coding in the various languages I'm sure will be many,
-          but I hope to find them all to be adept at solving unique problems.
+          However, now I find myself standing at the precipice of a new
+          adventure—coding. It may seem contradictory to some, who question my
+          willingness to shift from gazing at the breathtaking vistas of the
+          outdoors to fixating on a computer screen. Nevertheless, I see coding
+          as a means to pursue my love for problem-solving in a concrete way,
+          while still leaving room for my deep connection to nature.
+        </p>
+        <p>
+          Recently, I completed a coding bootcamp where I honed my skills and
+          expanded my proficiency in various front-end and back-end
+          technologies. On the front end, I have become adept in HTML5, CSS3,
+          and JavaScript ES6. I have also gained experience in utilizing jQuery
+          for efficient DOM manipulation, implementing responsive design
+          techniques, and building dynamic user interfaces using React and
+          Bootstrap.
+        </p>
+        <p>
+          When it comes to the back end, I have acquired knowledge in Node.js,
+          working with APIs to fetch and manipulate data, and utilizing Express
+          to develop robust and scalable web applications. I am familiar with
+          working with databases, specifically MySQL with Sequelize as an ORM,
+          as well as MongoDB with Mongoose for efficient NoSQL data management.
+          Additionally, I have experience working with both REST APIs and
+          GraphQL to provide flexible and efficient data querying.
+        </p>
+        <p>
+          I am excited to tackle the new challenges in my coding journey head-on
+          and apply my problem-solving abilities to solve unique and intricate
+          problems.
         </p>
       </div>
     </section>

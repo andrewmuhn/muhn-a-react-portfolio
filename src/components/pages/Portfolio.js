@@ -12,7 +12,7 @@ export default function Portfolio() {
           <div className="col-md">
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Cook's Companion</h4>
-              <p>Handlebaars, mySQL, Express</p>
+              <p>Handlebars, mySQL, Express</p>
               <img src="./images/cooks-companion.jpg" alt="" />
               <div className="projects-child py-2 d-flex justify-content-around">
                 <a className="btn" href="https://cookscompanion.herokuapp.com/">
@@ -27,19 +27,19 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
-              <h4>Harry Potter Spell Book</h4>
-              <p>FrontEnd Web App w/ Server Side APIs</p>
-              <img src="./images/HP.png" alt="" />
+              <h4>Book Search Engine</h4>
+              <p>GraphQL, MERN, JWT</p>
+              <img src="./images/book-search-engine.png" alt="" />
               <div className="projects-child py-2 d-flex justify-content-around">
                 <a
                   className="btn"
-                  href="https://andrewmuhn.github.io/harry-potter-spell-book/"
+                  href="https://google-book-search-7654-71fedf550da4.herokuapp.com/"
                 >
                   Deployed Application
                 </a>
                 <a
                   className="btn"
-                  href="https://github.com/andrewmuhn/harry-potter-spell-book"
+                  href="https://github.com/andrewmuhn/book-search-engine"
                 >
                   Github Repo
                 </a>
@@ -80,19 +80,13 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
-              <h4>Weather App</h4>
-              <p>lol</p>
+              <h4>E-Commerce</h4>
+              <p>mySQL, Sequelize</p>
               <img src="./images/weather-app.png" alt="" />
               <div className="projects-child py-2 d-flex justify-content-around">
                 <a
                   className="btn"
-                  href="https://andrewmuhn.github.io/weather-app/"
-                >
-                  Deployed Application
-                </a>
-                <a
-                  className="btn"
-                  href="https://github.com/andrewmuhn/weather-app"
+                  href="https://github.com/andrewmuhn/e-commerce"
                 >
                   Github Repo
                 </a>
@@ -100,7 +94,7 @@ export default function Portfolio() {
             </div>
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Weather App</h4>
-              <p>lol</p>
+              <p>Third-Party APIs</p>
               <img src="./images/weather-app.png" alt="" />
               <div className="projects-child py-2 d-flex justify-content-around">
                 <a
