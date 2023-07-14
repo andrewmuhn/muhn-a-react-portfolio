@@ -89,13 +89,19 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
-              <h4>E-Commerce</h4>
-              <p>mySQL, Sequelize</p>
-              <img src="./images/e-commerce.png" alt="e-commerce app" />
+              <h4>Dopamine Box</h4>
+              <p>MERN Stack</p>
+              <img src="./images/dopamine-box.png" alt="dopamine-box app" />
               <div className="projects-child py-2 d-flex justify-content-around">
                 <a
                   className="btn"
-                  href="https://github.com/andrewmuhn/e-commerce"
+                  href="https://dopamine-box-178888939ab3.herokuapp.com/"
+                >
+                  Deployed Application
+                </a>
+                <a
+                  className="btn"
+                  href="https://github.com/sethleininger/dopamine-box"
                 >
                   Github Repo
                 </a>
