@@ -1,7 +1,26 @@
 import './Contact.css';
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (event) => {
+    event.preventDefault();
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.end.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then((result) => {
+        alert('message sent successfully...');
+        console.log(result.text);
+      })
+      .error((error) => console.error(error.text));
+  };
+
   const [notification, setNotification] = useState('');
 
   const handleNotification = (e) => {
@@ -22,7 +41,7 @@ export default function Contact() {
         <h2>Contact</h2>
       </div>
       <div className="section-content">
-        <form className="contact-form">
+        <form className="contact-form" ref={form} onSubmit={sendEmail}>
           <div>
             <label htmlFor="name">Name: </label>
             <input
