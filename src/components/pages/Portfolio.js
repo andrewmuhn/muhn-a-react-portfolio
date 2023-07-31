@@ -9,7 +9,7 @@ export default function Portfolio() {
       </div>
       <div className="project-container container">
         <div className="row">
-          <div className="col-md">
+          <div className="col">
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Cook's Companion</h4>
               <p>Handlebars, mySQL, Express</p>
@@ -29,6 +29,8 @@ export default function Portfolio() {
                 </a>
               </div>
             </div>
+          </div>
+          <div className="col">
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Book Search Engine</h4>
               <p>GraphQL, MERN, JWT</p>
@@ -51,6 +53,10 @@ export default function Portfolio() {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Text Editor</h4>
               <p>PWA</p>
@@ -71,7 +77,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col-md">
+          <div className="col">
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Employee Tracker</h4>
               <p>Node, mySql, Sequelize</p>
@@ -88,6 +94,10 @@ export default function Portfolio() {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Dopamine Box</h4>
               <p>MERN Stack</p>
@@ -107,6 +117,8 @@ export default function Portfolio() {
                 </a>
               </div>
             </div>
+          </div>
+          <div className="col">
             <div className="project-card rounded text-center pt-2 mx-2 my-2">
               <h4>Weather App</h4>
               <p>Third-Party APIs</p>
